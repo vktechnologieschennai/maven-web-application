@@ -4,24 +4,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>NareshITechnologies- Home Page</title>
-<link href="images/nitlogo.png" rel="icon">
+<title>VK Technologies- Home Page</title>
+<link href="images/vklogo.png" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Naresh Technologies.</h1>
-<h1 align="center"> We have a demo on DevOps with AWS on 16th May at 7 PM IST for new batch. Timings are 6 Am to 7.30 AM IST. NIT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
+<h1 align="center">Welcome to VK Technologies.</h1>
+<h1 align="center"> We have a demo on DevOps with AWS on 12th August at 6 PM IST for new batch. Timings are 6 PM to 7.30 PM IST. VKT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/nitlogo.png" alt="" width="100">
+		<img src="images/vklogo.png" alt="" width="50">
 	</span>
 	<span style="font-weight: bold;">
-		Naresh Technologies, 
-		2nd Floor, Durga Bhavani Plaza, Satyam Theatre Road, 
-		Ameerpet, Hyderabad, Telangana 500016
+		VK Technologies, 
+		Velachery, Chennai, TamilNadu 600042
 		<br>
-		<a href="mailto:info@nareshit.com">Mail to Nareshit Technologies</a>
+		<a href="mailto:venkatdevopstraining@gmail.com">Mail to VK Technologies</a>
 	</span>
 </div>
 <hr>
