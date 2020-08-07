@@ -9,8 +9,13 @@
 </head>
 </head>
 <body>
+<<<<<<< HEAD
 <h1 align="center">Welcome to VK Technologies.</h1>
 <h1 align="center"> We have a demo on DevOps with AWS on 12th August at 6 PM IST for new batch. Timings are 6 PM to 7.30 PM IST. VKT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
+=======
+<h1 align="center">Welcome to Naresh Technologies.</h1>
+<h1 align="center"> We have a demo on DevOps with AWS on 8th July at 7AM for new batch. Timings are 6 Am to 7.30 AM IST. NIT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
+>>>>>>> 0f343988c29ca4489ef20c04ff26ce05cd5b010b
 <hr>
 <div style="text-align: center;">
 	<span>
