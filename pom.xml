@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://15.207.16.55:9000/</sonar.host.url>
+		<sonar.host.url>http://15.207.116.243:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -44,7 +44,8 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-
+		
+	
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -98,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>VK Technologies Releases Nexus Repository</name>
-	      <url>http://15.207.100.35:8081/repository/amazon-Release/</url>
+	      <url>http://52.66.14.255:8081/repository/amazon-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>VK Technologies Snapshot Nexus Repository </name>
-	      <url>http://15.207.100.35:8081/repository/amazon-snapshot/</url>
+	      <url>http://52.66.14.255:8081/repository/amazon-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -152,3 +153,4 @@
 	
 	
 </project>
+
