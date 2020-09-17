@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to VK Technologies.</h1>
-<h1 align="center"> We have a demo on DevOps with AWS on 12th August at 6 PM IST for new batch. Timings are 6 PM to 7.30 PM IST. VKT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
+<h1 align="center"> We have a demo on DevOps with AWS on 21st sep IST for new batch. Timings are 7AM to 8:30AM IST. VKT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
 <hr>
 <div style="text-align: center;">
 	<span>
