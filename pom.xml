@@ -104,7 +104,7 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>VK Technologies Snapshot Nexus Repository </name>
+	      <name>VK Technologies Snapshot Nexus Repository</name>
 	      <url>https://18.191.171.216:8181/mylandmarktech/repository/teslanew-web-snapshots/</url>
 	    </snapshotRepository>
 	    
