@@ -9,8 +9,9 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to VK Technologies.</h1>
-<h1 align="center"> We have a demo on DevOps with AWS on 21st sep IST for new batch. Timings are 7AM to 8:30AM IST. VKT- Very Good Training center for DevOps with AWS  also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... </h1>
+<h1 align="center">Welcome to Tesla New Project.</h1>
+<h1 align="center"> We have a new project that is built to change the way the world sees news things. It shall be unboarded in the coming weeks....
+	It will equip the young generation in the advancement of technologies which will help in building a new world.</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
