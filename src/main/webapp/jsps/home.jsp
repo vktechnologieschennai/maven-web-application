@@ -11,7 +11,8 @@
 <body>
 <h1 align="center">Welcome to Tesla New Project for Euro Space Innovation.</h1>
 <h1 align="center"> We have a new project that is built to change the way the world sees news things. It shall be unboarded in the coming weeks....
-	It will equip the young generation in the advancement of technologies which will help in building a new world.</h1>
+	It will equip the young generation all accros the globe in the advancement of technologies which will help in building a new world. 
+	A world that we've all hoped and dreamed for.</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
