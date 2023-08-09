@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.6.150:9000/</sonar.host.url>
+		<sonar.host.url>http://3.139.105.93:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>VK Technologies Releases Nexus Repository</name>
-	      <url>http://18.190.153.5:8080/mylandmarktech/repository/teslanew-web-releases/</url>
+	      <url>http://18.191.235.154:8181/mylandmarktech/repository/Tesla_Web_fe_Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>VK Technologies Snapshot Nexus Repository</name>
-	      <url>http://18.190.153.5:8080/mylandmarktech/repository/teslanew-web-snapshots/</url>
+	      <url>http://18.191.235.154:8181/mylandmarktech/repository/Tesla_fe_Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
