@@ -1,0 +1,66 @@
+pipeline{
+  agent any
+  tools {
+    maven "maven3"   
+  }
+  stages {
+    stage('1GetCode'){
+      steps{
+        sh "echo 'cloning the latest application version' " 
+        git branch: 'feature', credentialsId: 'gitHubCredentials', url: 'https://github.com/osazuwa24/maven-web-application'	
+      }
+    }
+    stage('3Test+Build'){
+      steps{
+        sh "echo 'running JUnit-test-cases' "
+        sh "echo 'testing must pass to create artifacts' "
+        sh "mvn clean package" 
+      }
+    }
+    stage('4CodeQuality'){
+      steps{
+        sh "echo 'performing CodeQualityAnalysis' "
+        sh "mvn sonar:sonar"
+      }
+    }
+    stage('5uploadNexus'){
+      steps{
+        sh "mvn deploy"
+      }
+    }
+    stage('6deploy2uat'){
+      steps{
+        deploy adapters: [tomcat9(credentialsId: 'tomcatcredentials', path: '', url: 'http://3.138.175.204:8080/manager/html')], contextPath: null, war: 'target/*war'
+      }
+    }
+}    
+    post {
+      always{
+      emailext body: '''Hey,
+
+Please remember to check.
+
+Thanks
+Oz''', recipientProviders: [buildUser(), developers()], subject: 'Success', to: 'sazuwa.abraham@gmail.com'
+}
+    success{
+      emailext body: '''Hey,
+
+It went well.
+
+Thanks
+Oz''', recipientProviders: [buildUser(), developers()], subject: 'Success', to: 'sazuwa.abraham@gmail.com'
+  }
+    failure{
+      emailext body: '''Hey,
+
+Build failed. Please resolve issues
+
+Thanks
+Oz''', recipientProviders: [buildUser(), developers()], subject: 'Success', to: 'sazuwa.abraham@gmail.com' 
+    }
+  }
+}   
+
+
+ 
